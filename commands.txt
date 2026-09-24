@@ -63,5 +63,18 @@ git commit -m "Update analyss"
 git commit --amend -m "Update analysis"
 
 git checkout main
+git merge station-upgrade
+
+git log --oneline
+
+(base) zhangjinghao@ZhangdeMacBook-Air-5 datasci350-quiz01 % git log --oneline
+aa26d5a (HEAD -> main, station-upgrade) Update command log
+fcfe48d Update analysis
+2266a4e Add gitignore
+ef72903 Update station files
+825c39c Add results directory
+a22b29e (upstream/main, origin/main, origin/HEAD) docs(readme): note committing commands.txt before task 18 and force push for bonus 2
+b645f85 feat: quiz 01 starter files
+
 
 
