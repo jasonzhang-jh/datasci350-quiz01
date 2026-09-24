@@ -76,5 +76,6 @@ ef72903 Update station files
 a22b29e (upstream/main, origin/main, origin/HEAD) docs(readme): note committing commands.txt before task 18 and force push for bonus 2
 b645f85 feat: quiz 01 starter files
 
-
-
+git add commands.txt
+git commit -m "Add command log"
+git push -u origin main
