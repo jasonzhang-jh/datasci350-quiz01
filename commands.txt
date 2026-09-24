@@ -1,0 +1,15 @@
+gh repo clone https://github.com/jasonzhang-jh/datasci350-quiz01
+cd datasci350-quiz01/
+touch commands.txt
+
+git checkout -b station-upgrade
+mkdir results
+touch results/summary.md
+echo "Analysis of the first field season." >> results/summary.md
+
+git add results
+git commit -m "Add results directory"
+mv data/sensor-readings.csv data/station-data.csv
+mkdir scripts/archive && cp scripts/*.py scripts/archive/
+rm docs/notes.md
+
