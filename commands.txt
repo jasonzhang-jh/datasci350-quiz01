@@ -59,5 +59,9 @@ index 70ea841..c5af7da 100644
 Lines beginning with + show lines that were added to the files.
 
 git add .
+git commit -m "Update analyss"
+git commit --amend -m "Update analysis"
+
+git checkout main
 
 
